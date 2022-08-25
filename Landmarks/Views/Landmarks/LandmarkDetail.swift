@@ -23,7 +23,7 @@ struct LandmarkDetail: View {
             
             MapView(coordinate: landmark.locationCoordinate)
                 .ignoresSafeArea(edges: .top)
-                .frame(height: 200)
+                .frame(height: 350)
             
             CircleImage(image: landmark.image)
                 .offset(y: -130)
